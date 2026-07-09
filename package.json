@@ -1,0 +1,31 @@
+
+{
+  "name": "PASIYA-WhatsappBot",
+  "version": "1.0.0",
+  "description": "PASIYA-WhatsappBot - WhatsApp Pair Code Generator",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo 'No build step required'"
+  },
+  "author": "MMT",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc13",
+    "awesome-phonenumber": "7.8.0",
+    "body-parser": "^1.3.0",
+    "express": "^5.2.1",
+    "megajs": "^1.3.10",
+    "path": "^0.12.7",
+    "phone": "3.1.71",
+    "pino": "^10.3.1",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
+
+  
